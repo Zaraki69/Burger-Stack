@@ -2,6 +2,7 @@ package com.example.order;
 
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*")   // ✅ ADD THIS LINE
 @RestController
 public class OrderController {
 

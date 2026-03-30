@@ -4,6 +4,9 @@ const jwt = require("jsonwebtoken");
 const app = express();
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors());
+
 const SECRET = process.env.JWT_SECRET || "secret";
 
 app.post("/register", (req, res) => {

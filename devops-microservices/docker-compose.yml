@@ -19,3 +19,12 @@ services:
     build: ./order-service
     ports:
       - "3004:8080"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - user
+      - product
+      - order
