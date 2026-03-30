@@ -6,8 +6,10 @@
     "react-dom": "^18.2.0",
     "cors": "^2.8.5",
     "react-scripts": "^5.0.1"
+
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
