@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import "./app.css";
 
 const API = {
-  auth: "http://localhost:3001",
-  user: "http://localhost:3002",
-  product: "http://localhost:3003",
-  order: "http://localhost:3004",
+  auth: "/auth",
+  user: "/user",
+  product: "/product",
+  order: "/order"
 };
 
 const MOCK_PRODUCTS = [

@@ -17,4 +17,4 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-app.listen(3000, () => console.log("Product running"));
+app.listen(3003, () => console.log("Product running"));

@@ -1,9 +1,9 @@
 ### Health Check
-GET http://localhost:3001/health
+GET http://auth-service:3001/health
 
 
 ### Register User
-POST http://localhost:3001/register
+POST http://auth-service:3001/register
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 
 ### Login User
-POST http://localhost:3001/login
+POST http://auth-service:3001/login
 Content-Type: application/json
 
 {

@@ -1,13 +1,13 @@
 ### Health Check
-GET http://localhost:3002/health
+GET http://user-service:3002/health
 
 
 ### Get User
-GET http://localhost:3002/users/1
+GET http://user-service:3002/users/1
 
 
 ### Update User
-PUT http://localhost:3002/users/1
+PUT http://user-service:3002/users/1
 Content-Type: application/json
 
 {
