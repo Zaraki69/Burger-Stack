@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: user
-          image: zaraki89/user:latest
+          image: zaraki89/user:v1
           ports:
             - containerPort: 3002

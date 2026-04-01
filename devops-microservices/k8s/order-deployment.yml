@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: order
-          image: zaraki89/order:latest
+          image: zaraki89/order:v1
           ports:
             - containerPort: 3004

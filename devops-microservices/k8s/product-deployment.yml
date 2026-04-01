@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: product
-          image: zaraki89/product:latest
+          image: zaraki89/product:v1
           ports:
             - containerPort: 3003

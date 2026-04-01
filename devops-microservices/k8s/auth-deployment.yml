@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: auth
-          image: zaraki89/auth:latest
+          image: zaraki89/auth:v1
           ports:
             - containerPort: 3001

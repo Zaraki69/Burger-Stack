@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: zaraki89/frontend:latest
+          image: zaraki89/frontend:v1
           ports:
             - containerPort: 80
